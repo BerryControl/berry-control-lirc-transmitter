@@ -33,6 +33,7 @@ class SocketIRTransmitter extends IRTransmitter {
     private BufferedReader in;
 
     SocketIRTransmitter(String address, int port) {
+        super();
         this.address = address;
         this.port = port;
     }

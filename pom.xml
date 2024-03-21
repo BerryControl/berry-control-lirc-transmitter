@@ -9,7 +9,7 @@
     <version>${revision}</version>
 
     <properties>
-        <revision>0.1.0</revision>
+        <revision>0.1.1</revision>
 
         <junit.version>5.9.2</junit.version>
 

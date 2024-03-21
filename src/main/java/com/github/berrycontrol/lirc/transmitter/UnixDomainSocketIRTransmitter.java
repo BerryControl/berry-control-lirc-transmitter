@@ -31,6 +31,7 @@ class UnixDomainSocketIRTransmitter extends IRTransmitter {
     private SocketChannel channel;
 
     UnixDomainSocketIRTransmitter(String address) {
+        super();
         socketAddress = UnixDomainSocketAddress.of(Path.of(address));
     }
 
